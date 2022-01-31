@@ -70,7 +70,7 @@ function increaseLevel(){
   if(level==10)
     winner();
   else
-  setTimeout(RandomNumberGenerator,1000);
+  setTimeout(RandomNumberGenerator,600);
 }
 
 function winner(){
