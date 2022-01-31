@@ -85,7 +85,6 @@ function winner(){
 }
 
 $("button").click(function(){
-  console.log("current i value"+i);
   if(pattern[i] === parseInt(event.target.id)){
   i++;
   playSound(parseInt(event.target.id));
