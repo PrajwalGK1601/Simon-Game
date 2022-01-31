@@ -18,11 +18,13 @@ function Restart(){
 $("button").hide();
 
 $(document).click(function(){
-if(count==0){
-  $("button").show();
-  setTimeout(RandomNumberGenerator,500);
-  $("h1").text("Level 1");
-  count++;
+   $("p").remove();
+  $("ul").remove();
+  if(count==0){
+    $("button").show();
+    setTimeout(RandomNumberGenerator,500);
+    $("h1").text("Level 1");
+    count++;
 }
 });
 
