@@ -75,7 +75,7 @@ function increaseLevel(){
 
 function winner(){
     $("h1").text("You Won!🎉")
-    $("button").hide();
+    $("button").remove();
     $("h1").after("<button type='button' class='restart btn btn-light'>Restart</button>");
     $("button").click(function(){
       Restart();
